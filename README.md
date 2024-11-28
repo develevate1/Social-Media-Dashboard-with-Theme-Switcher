@@ -44,13 +44,15 @@
   <p><b>Mobile Preview</b></p>
   <br>
  
-   ![screencapture-127-0-0-1-5500-index-html-2024-10-28-19_35_40](https://github.com/user-attachments/assets/f305b1da-accd-4a85-852b-5529091c77a7)
+   ![Mobile Image](https://github.com/user-attachments/assets/35e0161a-20e5-45c2-b2ca-8bbeae50998d)
+
 
 
   <br>
   <p><b> Desktop Preview</b></p>
   
-![screencapture-127-0-0-1-5500-index-html-2024-10-28-19_35_25](https://github.com/user-attachments/assets/a4249704-99b4-4dfc-b70c-cc569d5fde3a)
+![screencapture-127-0-0-1-5500-index-html-2024-11-28-15_05_07](https://github.com/user-attachments/assets/d91b281b-655f-4812-a71c-9cec1afaeb7f)
+
 
 
 <br>
@@ -62,7 +64,7 @@
 
 - |||
   | :----- | :----- |
-  | Solution URL: | [PRICING COMPONENT WITH TOGGLE 🎯 [ ACCESSIBLE - BEM - VANILLA CSS3 - ES6 ]](https://www.frontendmentor.io/solutions/news-homepage-accessible-bem-vanilla-css3-es6-hhKqq2TIDw) |
+  | Solution URL: | [SOCIAL MEDIA DASHBOARD WITH THEME SWITCHER 🎯 [ ACCESSIBLE - BEM - VANILLA CSS3 - ES6 ]](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H/hub) |
   | Live Site URL: | [https://github.com/aratidsa/Pricing-Component-with-Toggle](https://github.com/aratidsa/Pricing-Component-with-Toggle) |
   |||
 
