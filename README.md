@@ -7,7 +7,7 @@
     <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href="https://design-pricing-component-with-toggle.netlify.app/">View Demo</a>
+    <a href="https://design-social-media-dashboard.netlify.app/">View Demo</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/aratidsa/Pricing-Component-with-Toggle/issues">Report Bug</a>
     &nbsp;·&nbsp;
@@ -44,14 +44,15 @@
   <p><b>Mobile Preview</b></p>
   <br>
  
-   ![Mobile Image](https://github.com/user-attachments/assets/35e0161a-20e5-45c2-b2ca-8bbeae50998d)
+   ![screencapture-design-social-media-dashboard-netlify-app-2024-12-16-20_54_52](https://github.com/user-attachments/assets/c43175c4-cc54-492b-8c10-fc0e4a74cbf0)
+
 
 
 
   <br>
   <p><b> Desktop Preview</b></p>
   
-![screencapture-127-0-0-1-5500-index-html-2024-11-28-15_05_07](https://github.com/user-attachments/assets/d91b281b-655f-4812-a71c-9cec1afaeb7f)
+![screencapture-design-social-media-dashboard-netlify-app-2024-12-16-20_54_16](https://github.com/user-attachments/assets/8f6014f7-0b8b-4b78-8eeb-0e0cd1e2eb76)
 
 
 
@@ -76,8 +77,11 @@
   | :-----: |
   |  <b>Overall score 96.5% for Both Mobile & Desktop</b><br>(Below scores are for mobile and desktop devices) |
   | |
-  | ![Screenshot 2024-10-28 191752](https://github.com/user-attachments/assets/07fa5098-f00b-41dd-9025-1534d1c3cfdd) 
-    ![Screenshot 2024-10-28 191735](https://github.com/user-attachments/assets/b91a1bf7-bd95-46b7-881c-c281a0e6bd36) |
+  | ![Screenshot 2024-12-16 205331](https://github.com/user-attachments/assets/7844e0fc-3fc9-4bdf-8842-5a47f4962ddd)
+  
+    ![Screenshot 2024-12-16 205347](https://github.com/user-attachments/assets/074671dc-dc37-45c5-a116-bd5f2e71b70f)
+
+     |
   | |
   | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-0xabdulkhalid-github-io-news-homepage/tdffinbwjg?form_factor=desktop) to get live score |
   ||
@@ -91,7 +95,7 @@
 - The challenge is to build out this pricing component and get it looking as close to the design as possible.
 - Users should be able to:
     - View the optimal layout for the site depending on their device's screen size
-    - Control the toggle with both their mouse/trackpad and their keyboard
+    - Toggle color theme to their preference
     - See hover states for all interactive elements on the page
 
 <br>
