@@ -80,7 +80,7 @@
   | ![Screenshot 2024-12-16 205331](https://github.com/user-attachments/assets/7844e0fc-3fc9-4bdf-8842-5a47f4962ddd)
     ![Screenshot 2024-12-16 205347](https://github.com/user-attachments/assets/074671dc-dc37-45c5-a116-bd5f2e71b70f) |
   | |
-  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-0xabdulkhalid-github-io-news-homepage/tdffinbwjg?form_factor=desktop) to get live score |
+  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/) to get live score |
   ||
 
 
