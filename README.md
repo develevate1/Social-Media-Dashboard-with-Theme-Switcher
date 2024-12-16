@@ -9,9 +9,9 @@
     <br />
     <a href="https://design-social-media-dashboard.netlify.app/">View Demo</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/aratidsa/Pricing-Component-with-Toggle/issues">Report Bug</a>
+    <a href="https://github.com/aratidsa/Social-Media-Dashboard-with-Theme-Switcher/issues">Report Bug</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/aratidsa/Pricing-Component-with-Toggle/issues">Request Feature</a>
+    <a href="https://github.com/aratidsa/Social-Media-Dashboard-with-Theme-Switcher/issuess">Request Feature</a>
   </p>
 </div>
 
