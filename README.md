@@ -66,7 +66,7 @@
 - |||
   | :----- | :----- |
   | Solution URL: | [SOCIAL MEDIA DASHBOARD WITH THEME SWITCHER 🎯 [ ACCESSIBLE - BEM - VANILLA CSS3 - ES6 ]](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H/hub) |
-  | Live Site URL: | [https://github.com/aratidsa/Pricing-Component-with-Toggle](https://github.com/aratidsa/Pricing-Component-with-Toggle) |
+  | Live Site URL: | https://github.com/aratidsa/Social-Media-Dashboard-with-Theme-Switcher |
   |||
 
 <br>
@@ -75,7 +75,7 @@
   
 - ||
   | :-----: |
-  |  <b>Overall score 96.5% for Both Mobile & Desktop</b><br>(Below scores are for mobile and desktop devices) |
+  |  <b>Overall score 96% for Both Mobile & Desktop</b><br>(Below scores are for mobile and desktop devices) |
   | |
   | ![Screenshot 2024-12-16 205331](https://github.com/user-attachments/assets/7844e0fc-3fc9-4bdf-8842-5a47f4962ddd)
     ![Screenshot 2024-12-16 205347](https://github.com/user-attachments/assets/074671dc-dc37-45c5-a116-bd5f2e71b70f) |
