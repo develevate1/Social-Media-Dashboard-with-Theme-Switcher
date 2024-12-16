@@ -1,0 +1,500 @@
+/* RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+    display:block;
+    max-width: 100%;
+}
+
+/* CUSTOM PROPERTIES */
+:root{
+    /* COLOR */
+    --clr-limeGreen: hsl(163, 72%, 41%);
+    --clr-brightRed: hsl(356, 69%, 56%);
+    --clr-facebook: hsl(208, 92%, 53%);
+    --clr-twitter: hsl(203, 89%, 53%);
+    --clr-instagram: linear-gradient(to right,hsl(37, 97%, 70%) , hsl(329, 70%, 58%)) ;
+    --clr-youTube: hsl(348, 97%, 39%);
+
+    /* Dark Theme Toggle */
+    --clr-darkToggle: linear-gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+
+    /* Light Theme Toggle */
+    --clr-lightToggle: hsl(230, 22%, 74%);
+
+    /* Dark Theme Colors */
+    --clr-bg-veryDarkBlue: hsl(230, 17%, 14%);
+    --clr-topBg-veryDarkBlue: hsl(233, 19%, 18%);
+    --clr-cardBg-darkDesaturatedBlue: hsl(228, 28%, 20%);
+    --clr-text-desaturatedBlue: hsl(228, 34%, 66%);
+    --clr-text-white: hsl(0, 0%, 100%);
+
+    /* Light Theme Colors */
+    --clr-bg-white: hsl(0, 0%, 100%);
+    --clr-topBG-veryPaleBlue: hsl(225, 100%, 98%);
+    --clr-cardBG-lightGrayishBlue: hsl(225, 29%, 97%);
+    --clr-text-darkGrayishBlue: hsl(228, 12%, 44%);
+    --clr-text-veryDarkBlue: hsl(230, 17%, 14%);
+
+    /* FONT WEIGHT */
+    --fw-400:400;
+    --fw-700:700;
+
+    /* FONT SIZE */
+    --fs-14:0.88rem; /* Overview Card Headings */
+
+    /* FONT FAMILY */
+    --ff-inter:"Inter", sans-serif;
+}
+/* TYPOGRAPY */
+body.dark-mode{
+    background-color:var(--clr-bg-veryDarkBlue) !important;
+    color:var(--clr-text-desaturatedBlue) !important;
+}
+body.dark-mode .dark-dashboard-header{
+    background-color: var(--clr-topBg-veryDarkBlue);
+}
+body.dark-mode .dark-dashboard-heading{
+    color:var(--clr-bg-white);
+}
+body.dark-mode .dark-hr{
+    background-color: var(--clr-text-desaturatedBlue);
+    border:1px solid var(--clr-text-desaturatedBlue);
+}
+body.dark-mode .dark-follower-count{
+    color:var(--clr-bg-white);
+}
+
+body.dark-mode .dark-social-card{
+    background-color: hsl(228, 28%, 20%);   
+}
+body.dark-mode .dark-social-card:hover,
+body.dark-mode .overview-card:hover{
+    background-color: hsl(230, 22%, 26%);
+}
+body.dark-mode .dark-instagram{
+    background-color: var(--clr-cardBG-darkDesaturatedBlue);   
+}
+body.dark-mode .dark-overview-title{
+    color:var(--clr-text-white);
+}
+body.dark-mode .dark-engagement-count{
+    color:var(--clr-text-white);
+}
+body.dark-mode .dark-overview-card{
+    background-color: hsl(228, 28%, 20%);  
+}
+
+
+/* BODY */
+body{
+    font-family:var(--ff-inter);
+    font-size:var(--fs-14);
+    font-weight:var(--fw-400);
+    line-height:1.6;
+    background-color:var(--clr-bg-white);
+    color:var(--clr-text-veryDarkBlue); 
+    overflow-x: auto;
+    max-width: 100%;    
+}
+/* COMPONENTS */
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width:75rem;
+}
+
+.dashboard-header{
+    background-color: var(--clr-topBG-veryPaleBlue);
+    position:relative;
+    border-bottom-left-radius:0.63rem;
+    border-bottom-right-radius:0.63rem;
+    min-width:21.88rem;
+    flex-shrink:0;
+}
+
+.dashboard-title{
+    padding:2.06rem 1.56rem 0px 1.56rem;
+}
+.dashboard-heading{
+    font-size:1.5rem;
+    word-spacing: 0.5px;
+}
+.total-followers{
+    font-size:14.5px;
+    margin-top:-0.25rem;
+    color:var(--clr-text-darkGrayishBlue);
+}
+
+/* Horizontal Line */
+hr{
+    margin:5.3%;
+    background-color: var(--clr-text-darkGrayishBlue);
+    outline:none;
+    height:1px;
+    border:1px solid var(--clr-text-darkGrayishBlue);
+}
+
+/* Toggle Bar */
+.dark-mode-toggle{
+    width:87.3%;
+    display:flex;
+    margin:0 auto;
+    padding-bottom:5rem;
+}
+.dark-mode-label{
+    font-size:14.5px;
+    margin-top:-3px;
+    color:var(--clr-text-darkGrayishBlue);
+    margin-right:12.19rem;
+}
+
+/* The switch container */
+.switch {
+    position: relative;
+    display: inline-block;
+    width:3rem;
+    height: 1.56rem;
+    margin-top:-0.31rem;
+    margin-left:0.31rem;
+    flex-shrink: 0;
+}
+  
+  /* Hide the default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    flex-shrink: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+  
+  /* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    transition: 0.4s;
+    border-radius:2.13rem; 
+}
+
+  /* The circle inside the slider */
+.slider::before {
+    position: absolute;
+    content: "";
+    height:1.13rem;
+    width:1.13rem;
+    top:3px;
+    left:0.25rem;
+    bottom:0.25rem;
+    background-color: black;
+    transition:0.4s;
+    border-radius: 50%;
+}
+  /* When the checkbox is checked */
+input:checked + .slider {
+    background:linear-gradient( hsl(237, 53%, 83%) 100%, hsl(237, 63%, 64%) 0%);
+}
+input:checked + .slider:hover {
+    background:linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}  
+input:checked + .slider::before {
+    transform: translateX(26px);
+    background-color: white;
+    left:0.5px;
+}
+
+/* Social Card */
+.social-card{
+    width:87%;
+    border-radius:0.31rem;    
+    background-color: var(--clr-cardBG-lightGrayishBlue);   
+    z-index:0;
+    margin:0 auto;
+    position:relative;
+}
+.social-card:hover,
+.overview-card:hover{
+    background-color: hsl(220, 15%, 92%);
+    cursor:pointer;
+}
+.facebook{
+    border-top-color:var(--clr-facebook);
+    border-top:1px solid var(--clr-facebook);
+    border-top-width:0.25rem;
+    z-index:1;
+    margin-top:-3.75rem;
+}
+.twitter{
+    border-top-color:var(--clr-twitter);
+    border-top:1px solid var(--clr-twitter);
+    border-top-width:0.25rem;
+    margin-top:1.56rem;
+}
+.instagram{
+    position: relative;
+    padding-top: 0.25rem; /* Adjust this to match the thickness of the 'border' */
+    background:var(--clr-instagram) no-repeat; /* Gradient only on top */
+    background-size: 100% 0.25rem; /* Width 100%, height to match top border thickness */
+    background-position: top; /* Position gradient at the top */
+    border-top-width:0px;
+    background-color: var(--clr-cardBG-lightGrayishBlue);
+    margin-top:1.56rem;
+}
+
+.youtube{
+    border-top-color:var(--clr-youTube);
+    border-top:1px solid var(--clr-youTube);
+    border-top-width:0.25rem;
+    margin-top:1.56rem;
+}
+.social-info{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top:8.3%;
+    gap:0.63rem;
+}
+.username{
+    color:var(--clr-text-darkGrayishBlue);
+    font-size:12.5px;
+}
+.social-stats{
+    margin-top:0.31rem;
+    text-align: center;
+}
+.follower-count{
+    font-size:3.63rem;
+}
+.follower-label{
+    text-transform:uppercase;
+    font-size:0.75rem;
+    letter-spacing:4.5px;
+    margin-top:-0.88rem;
+    color:var(--clr-text-darkGrayishBlue);
+}
+.growth{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:1.25rem;
+    padding-bottom:1.38rem;
+}
+.icon-up{
+    margin-top:0.63rem;
+    margin-right:0.25rem;
+}
+.today-stats{
+    font-size:0.75rem;
+    color:var(--clr-limeGreen);   
+    font-weight: var(--fw-700);
+}
+.icon-down{
+    margin-top:0.63rem;
+    margin-right:0.25rem;
+}
+.today-stats-down{
+    font-size:0.75rem;
+    color:var(--clr-brightRed);   
+    font-weight: var(--fw-700);
+}
+
+/* ---- Overview ----- */
+.overview{
+    padding:1.44rem 1.56rem 0px 1.56rem;
+    margin-top:18%;
+}
+.overview-heading{
+    margin-top:0.94rem;
+}
+.overview-title{
+    font-size:1rem;
+    color:var(--clr-text-darkGrayishBlue);
+    margin-bottom:1.25rem;
+}
+.overview-card{
+    border-radius: 0.31rem;
+    background-color: var(--clr-cardBG-lightGrayishBlue); 
+    padding:1.56rem 1.81rem 0.63rem 1.38rem; 
+}
+.engagement-title,.engagement-metrics{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.engagement-stats{
+    display:flex;
+    flex-direction: row;
+}
+.engagement-name{
+    font-weight: var(--fw-700);
+    color:var(--clr-text-darkGrayishBlue);
+}
+.engagement-metrics{
+    margin-top:0.63rem;
+}
+.engagement-count{
+    font-weight:var(--fw-700);
+    font-size:2.13rem;
+    margin-top:3px;
+}
+.engagement-stats{
+    margin-top:1.56rem;
+}
+.stats-percent{
+    font-size:0.75rem;    
+    font-weight: var(--fw-700);
+}
+.stats-percent-down{
+    color:var(--clr-brightRed);
+}
+.stats-percent-up{
+    color:var(--clr-limeGreen);
+}
+.card{
+    margin-top:0.94rem;
+}
+
+/* Footer */
+footer{
+    font-size:0.75rem;
+    margin-top:0.63rem;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    min-width:20.63rem;
+    margin-bottom: 0.63rem;;
+}
+
+.attribuition a{
+    text-decoration: none;
+    color:var(--clr-brightRed);
+    cursor:pointer;
+}
+.attribuition a:hover{
+    font-weight: bolder;
+}
+/* Media Screens */
+@media (min-width:500px){
+    .dark-mode-toggle{
+        justify-content: space-around;    
+    }    
+}
+
+@media (min-width:600px){
+    /* Main Container */
+    .main-container{
+        max-width: 100%;
+        margin:0 auto;
+    }
+    /* Dashboard */
+    .dashboard-header{
+       padding-bottom:9.38rem;
+    }
+    .dashboard-title{
+        padding:2rem 1.56rem 0px 10rem;
+    }
+    .dashboard-heading{
+        font-size:1.75rem;
+    }
+    .total-followers{
+        margin-top:-0.31rem;
+    }
+    /* Horizontal Line */
+    hr{
+        display: none;
+    }
+    /* Toggle Bar */
+    .dark-mode-toggle{
+        width:87.3%;
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-end;
+        margin:auto;
+        padding-bottom:0px;
+    }
+    .dark-mode-label{
+        margin-top:-2.81rem;
+        margin-right:0.31rem;
+    }
+    .switch {
+        margin-top:-2.81rem;
+        margin-right:9.25rem;
+    }
+    /* Social Media Grid */
+    .social-media-grid{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:0.31rem;
+        margin-top:-8.31rem;
+        z-index:1;
+        padding:0px 9.69rem 0 9.38rem;
+        max-width:94.8%;
+    }
+    /* Social Card */
+    .social-card{
+        width:90%;
+        min-width:10.81rem;
+    }    
+    .facebook{
+        margin-top:1.56rem;
+    }
+    .social-info{
+        margin-top:11.3%;
+        gap:0.5rem;
+    }
+
+    /* ---- Overview ----- */
+    .overview{
+        padding:1.44rem 8.44rem 0px 10.31rem;
+        margin-top:2%;
+        max-width:94.6%;
+    }
+    .overview-heading{
+        margin-top:0px;
+    }
+    .overview-grid{
+        display:grid;
+        grid-template-columns:repeat(4,1fr);
+        margin-top:-0.81rem;
+        row-gap:0.63rem;
+        column-gap:0.31rem;
+        margin-bottom: 0.63rem;    
+    }
+    .overview-title{
+        font-size:1rem;
+        color:var(--clr-text-darkGrayishBlue);
+        margin-bottom:1.25rem;
+    }
+    .overview-card{
+        padding:1.56rem 1.81rem 0.63rem 1.38rem; 
+        width:90%;
+        min-width: 13.13rem;
+    }
+    .facebook-card{
+        height:90%;
+        margin-top:0.94rem;
+    }      
+}

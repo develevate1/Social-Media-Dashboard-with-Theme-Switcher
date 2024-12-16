@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="Social Media Dashboard with Theme Switcher Solution by aratidsa for FrontendMentor.io"/>
+    <meta name="keywords"
+    content="Frontend Mentor, Social Media Dashboard with Theme Switcher Challenge, aratidsa"/>
+   <meta property="og:title"
+    content="Social Media Dashboard with Theme Switcher - Frontend Mentor"/>
+   <meta property="og:description"
+    content="Social Media Dashboard with Theme Switcher Solution by aratidsa for FrontendMentor.io"/>
+    <!-- Title -->
+    <title>Social Media Dashboard with Theme Switcher | Frontend Mentor Challenge</title>
+    <!-- ICON -->
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<!-- BODY -->
+<body>
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- Dashboard Header -->
+        <header class="dashboard-header dark-dashboard-header">
+            <!-- Dashboard Title Section -->
+            <div class="dashboard-title">
+                <h1 class="dashboard-heading dark-dashboard-heading">Social Media Dashboard</h1>
+                <h2 class="total-followers">Total Followers: 23,004</h2>
+            </div>
+
+            <!-- Horizontal Divider -->
+            <hr class="dark-hr">
+
+            <!-- Dark Mode Toggle -->
+            <div class="dark-mode-toggle">
+                <h2 class="dark-mode-label">Dark Mode</h2>
+                <!-- Toggle Switch for Dark Mode -->
+                <label class="switch">
+                    <input type="checkbox" id="toggle-mode" title="Toggle pricing options" checked>
+                    <span class="slider" aria-hidden="true"></span> <!-- Slider to visually represent the toggle -->
+                </label>
+                <!-- Hidden Label for Accessibility -->
+                <label for="priceToggle" class="visually-hidden">Toggle options</label>                
+            </div>            
+        </header> 
+         
+        <!-- Social Media Section -->
+        <section>
+            <div class="social-media-grid">
+                <!-- Facebook Card -->
+                <div class="social-card facebook dark-social-card">
+                    <!-- Social Info (Username and Icon) -->
+                    <div class="social-info">
+                        <p><img src="images/icon-facebook.svg" alt="facebook-icon" loading="lazy"></p>
+                        <h1 class="username">@nathanf</h1>
+                    </div>
+                    <!-- Social Stats (Followers and Growth) -->
+                    <div class="social-stats">
+                        <h1 class="follower-count dark-follower-count">1987</h1>
+                        <p class="follower-label">Followers</p>
+                        <div class="growth">
+                            <p><img src="images/icon-up.svg" alt="Increase in followers" class="icon-up" loading="lazy"></p>
+                            <p class="today-stats">12 Today</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Twitter Card -->
+                <div class="social-card twitter dark-social-card">
+                    <div class="social-info">
+                        <p><img src="images/icon-twitter.svg" alt="twitter-icon" loading="lazy"></p>
+                        <h1 class="username">@nathanf</h1>
+                    </div>
+                    <div class="social-stats">
+                        <h1 class="follower-count dark-follower-count">1044</h1>
+                        <p class="follower-label">Followers</p>
+                        <div class="growth">
+                            <p><img src="images/icon-up.svg" alt="Increase in followers" class="icon-up" loading="lazy"></p>
+                            <p class="today-stats">99 Today</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Instagram Card -->
+                <div class="social-card instagram dark-social-card">
+                    <div class="social-info">
+                        <p><img src="images/icon-instagram.svg" alt="instagram-icon" loading="lazy"></p>
+                        <h1 class="username">@realnathanf</h1>
+                    </div>
+                    <div class="social-stats">
+                        <h1 class="follower-count dark-follower-count">11k</h1>
+                        <p class="follower-label">Followers</p>
+                        <div class="growth">
+                            <p><img src="images/icon-up.svg" alt="Increase in followers" class="icon-up" loading="lazy"></p>
+                            <p class="today-stats">1099 Today</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- YouTube Card -->
+                <div class="social-card youtube dark-social-card">
+                    <div class="social-info">
+                        <p><img src="images/icon-youtube.svg" alt="youtube-icon" loading="lazy"></p>
+                        <h1 class="username">Nathan F.</h1>
+                    </div>
+                    <div class="social-stats">
+                        <h1 class="follower-count dark-follower-count">8239</h1>
+                        <p class="follower-label">Subscribers</p>
+                        <div class="growth decline">
+                            <p><img src="images/icon-down.svg" alt="Decrease in followers" class="icon-down" loading="lazy"></p>
+                            <p class="today-stats-down">144 Today</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </section>
+
+        <!-- Overview Section -->
+        <section class="overview">
+            <!-- Overview Title -->
+            <div class="overview-title">
+                <h1 class="overview-heading dark-overview-title">Overview - Today</h1>
+            </div>
+            <!-- Overview Grid -->
+            <div class="overview-grid">
+                <!-- Overview Card -->
+                <div class="overview-card facebook-card dark-overview-card">
+                    <div class="engagement-title facebook-title">
+                        <p class="engagement-name">Page Views</p>
+                        <p><img src="images/icon-facebook.svg" alt="facebook-icon" class="social-icon" loading="lazy"></p>   
+                    </div>
+                    <div class="engagement-metrics">
+                        <p class="engagement-count dark-engagement-count">87</p>
+                        <div class="engagement-stats">
+                            <p><img src="images/icon-up.svg" alt="Increase in followers" class="icon-up" loading="lazy"></p>
+                            <p class="stats-percent stats-percent-up">3%</p>
+                        </div>                        
+                    </div>
+                </div>
+                <!-- Overview Card -->
+                <div class="overview-card card dark-overview-card">
+                    <div class="engagement-title">
+                        <p class="engagement-name">Likes</p>
+                        <p><img src="images/icon-facebook.svg" alt="facebook-icon" class="social-icon" loading="lazy"></p>   
+                    </div>
+                    <div class="engagement-metrics">
+                        <p class="engagement-count dark-engagement-count">52</p>
+                        <div class="engagement-stats">
+                            <p><img src="images/icon-down.svg" alt="Decrease in followers" class="icon-down" loading="lazy"></p>
+                            <p class="stats-percent stats-percent-down">2%</p>
+                        </div>                        
+                    </div>
+                </div>
+                  <!-- Overview Card -->
+                <div class="overview-card card dark-overview-card">
+                    <div class="engagement-title">
+                        <p class="engagement-name">Likes</p>
+                        <p><img src="images/icon-instagram.svg" alt="instagram-icon" class="social-icon" loading="lazy"></p>   
+                    </div>
+                    <div class="engagement-metrics">
+                        <p class="engagement-count dark-engagement-count">5462</p>
+                        <div class="engagement-stats">
+                            <p><img src="images/icon-up.svg" alt="Increase in followers" class="icon-up" loading="lazy"></p>
+                            <p class="stats-percent stats-percent-up">2257%</p>
+                        </div>                    
+                    </div>
+                </div>
+                  <!-- Overview Card -->
+                <div class="overview-card card dark-overview-card">
+                    <div class="engagement-title">
+                        <p class="engagement-name">Profile Views</p>
+                        <p><img src="images/icon-instagram.svg" alt="instagram-icon" class="social-icon" loading="lazy"></p>   
+                    </div>
+                    <div class="engagement-metrics">
+                        <p class="engagement-count dark-engagement-count">52k</p>
+                        <div class="engagement-stats">
+                            <p><img src="images/icon-up.svg" alt="Increase in followers" class="icon-up" loading="lazy"></p>
+                            <p class="stats-percent stats-percent-up">1375%</p>
+                        </div>
+                    </div>
+                </div>
+                  <!-- Overview Card -->
+                <div class="overview-card card dark-overview-card">
+                    <div class="engagement-title">
+                        <p class="engagement-name">Retweets</p>
+                        <p><img src="images/icon-twitter.svg" alt="twitter-icon" class="social-icon" loading="lazy"></p>   
+                    </div>
+                    <div class="engagement-metrics">
+                        <p class="engagement-count dark-engagement-count">117</p>
+                        <div class="engagement-stats">
+                            <p><img src="images/icon-up.svg" alt="Increase in followers" class="icon-up" loading="lazy"></p>
+                            <p class="stats-percent stats-percent-up">303%</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Overview Card -->
+                <div class="overview-card card dark-overview-card">
+                    <div class="engagement-title">
+                        <p class="engagement-name">Likes</p>
+                        <p><img src="images/icon-twitter.svg" alt="twitter-icon" class="social-icon" loading="lazy"></p>   
+                    </div>
+                    <div class="engagement-metrics">
+                        <p class="engagement-count dark-engagement-count">507</p>
+                        <div class="engagement-stats">
+                            <p><img src="images/icon-up.svg" alt="Increase in followers" class="icon-up" loading="lazy"></p>
+                            <p class="stats-percent stats-percent-up">553%</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Overview Card -->
+                <div class="overview-card card dark-overview-card">
+                    <div class="engagement-title">
+                        <p class="engagement-name">Likes</p>
+                        <p><img src="images/icon-youtube.svg" alt="youtube-icon" class="social-icon" loading="lazy"></p>   
+                    </div>
+                    <div class="engagement-metrics">
+                        <p class="engagement-count dark-engagement-count">107</p>
+                        <div class="engagement-stats">
+                            <p><img src="images/icon-down.svg" alt="Decrease in followers" class="icon-down" loading="lazy"></p>
+                            <p class="stats-percent stats-percent-down">19%</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Overview Card -->
+                <div class="overview-card card dark-overview-card">
+                    <div class="engagement-title">
+                        <p class="engagement-name">Total Views</p>
+                        <p><img src="images/icon-youtube.svg" alt="youtube-icon" class="social-icon" loading="lazy"></p>   
+                    </div>
+                    <div class="engagement-metrics">
+                        <p class="engagement-count dark-engagement-count">1407</p>
+                        <div class="engagement-stats">
+                            <p><img src="images/icon-down.svg" alt="Decrease in followers" class="icon-down" loading="lazy"></p>
+                            <p class="stats-percent stats-percent-down">12%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p class="attribuition">Challenge by <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H">Frontend Mentor</a>. 
+            Coded by <a href="#">Arati D'sa</a>.</p>
+    </footer>  
+
+    <!-- JavaScript -->
+    <script defer src="app.js"></script>  
+
+</body>
+</html>
