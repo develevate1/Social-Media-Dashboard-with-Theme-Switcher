@@ -280,6 +280,7 @@ input:checked + .slider::before {
 .username{
     color:var(--clr-text-darkGrayishBlue);
     font-size:12.5px;
+    font-weight: var(--fw-700);
 }
 .social-stats{
     margin-top:0.31rem;
@@ -287,6 +288,7 @@ input:checked + .slider::before {
 }
 .follower-count{
     font-size:3.63rem;
+    font-weight: var(--fw-700);
 }
 .follower-label{
     text-transform:uppercase;
