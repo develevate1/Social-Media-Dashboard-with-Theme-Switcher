@@ -9,9 +9,9 @@
     <br />
     <a href="https://design-social-media-dashboard.netlify.app/">View Demo</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/aratidsa/Social-Media-Dashboard-with-Theme-Switcher/issues">Report Bug</a>
+    <a href="https://github.com/develevate1/Social-Media-Dashboard-with-Theme-Switcher/issues">Report Bug</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/aratidsa/Social-Media-Dashboard-with-Theme-Switcher/issuess">Request Feature</a>
+    <a href="https://github.com/develevate1/Social-Media-Dashboard-with-Theme-Switcher/issues">Request Feature</a>
   </p>
 </div>
 
@@ -66,7 +66,7 @@
 - |||
   | :----- | :----- |
   | Solution URL: | [SOCIAL MEDIA DASHBOARD WITH THEME SWITCHER 🎯 [ ACCESSIBLE - BEM - VANILLA CSS3 - ES6 ]](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H/hub) |
-  | Live Site URL: | https://github.com/aratidsa/Social-Media-Dashboard-with-Theme-Switcher |
+  | Live Site URL: | https://github.com/develevate1/Social-Media-Dashboard-with-Theme-Switcher |
   |||
 
 <br>
@@ -131,7 +131,7 @@
     <img src="https://img.shields.io/badge/gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt=mail/>
   </a>&nbsp;&nbsp;  
 
-  <a href="https://github.com/aratidsa" >
+  <a href="https://github.com/develevate1?tab=repositories" >
     <img src="https://img.shields.io/badge/Github%20Profile-131313?style=for-the-badge&logo=github&logoColor=white" alt="Github Profile">
   </a>
 
